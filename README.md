@@ -1,12 +1,11 @@
-# BOILERPLATE SETUP PROJECT:
-- NextJS
+# MY PORTFOLIO WEBSITE WITH MY BOILERPLATE SETUP ⚙️:
 - Styled-Components
-- Stypescript
+- Typescript
+- TailwindCSS
 
-![boilerplate setup NextJs, Styled-Components and Typescript](https://github.com/marcinhojazz/boilerplate-next-styled-typescript/blob/master/public/boilerplate.png)
+![boilerplate setup NextJs, Styled-Components and Typescript](https://github.com/marcinhojazz/portfolio/blob/master/public/prototipo-site.png)
 
-
-# README under construction, however the project is fully functional.
+### I'm still working on it! ⛏️⛏️⛏️
 
 ## Just download
 
