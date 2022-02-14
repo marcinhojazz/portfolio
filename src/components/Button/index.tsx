@@ -8,6 +8,6 @@ type ButtonProps = {
 
 export const Button = ({ children }: ButtonProps) => {
   return (
-    <button className="p-2 w-32 btn btn-primary">{children}</button>
+    <button className="p-2  w-44 btn btn-primary">{children}</button>
   )
 }
