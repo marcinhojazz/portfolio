@@ -15,7 +15,7 @@ export const Hero = ({}: HeroProps) => {
           <p className="mb-5">
           Desenvolvedor front-end, localizada No Rio de Janeiro, Brasil. Em busca da minha primeira oportunidade na area de desenvolvimento web.
           </p>
-          <a href="https://api.whatsapp.com/send?phone=5521993233208">
+          <a  target="blank" href="https://api.whatsapp.com/send?phone=5521993233208">
             <Button className='p-2'>
               Contato
               <svg id="whatsapp" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
