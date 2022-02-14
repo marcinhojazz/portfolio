@@ -2,7 +2,7 @@ type NavProps = {}
 
 export const Nav = ({}: NavProps) => {
   return (
-    <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+    <div id="nav" className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
       <div className="flex-1 px-2 mx-2">
         <span className="text-lg font-bold">
           PORTFÓLIO

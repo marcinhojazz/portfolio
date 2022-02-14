@@ -5,6 +5,7 @@ import { Hero } from '../components/Hero'
 import { About } from '../components/About'
 import { Footer } from '../components/Footer'
 import { Contact } from '../components/Contact'
+import { UpSite } from '../components/UpSite'
 
 const Home = () => {
 	return (
