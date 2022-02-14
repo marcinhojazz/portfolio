@@ -35,7 +35,7 @@ export const Footer = () => {
         </svg>
         </a>
       </div>
-    {/* <UpSite /> */}
+    <UpSite />
 
     </footer>
   )
