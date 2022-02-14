@@ -1,15 +1,20 @@
 import React from 'react'
 import { Button } from '../components/Button'
+import { Nav } from '../components/Nav'
+import { Hero } from '../components/Hero'
+import { About } from '../components/About'
+import { Footer } from '../components/Footer'
+import { Contact } from '../components/Contact'
 
 const Home = () => {
 	return (
 		<>
-		<Button>
-			hello
-		</Button>
-		<h1 className="text-3xl text-red-400 font-bold underline">
-      Hello world!
-    </h1>
+		<Nav />
+		<Hero />
+		{/* <About /> */}
+		<Contact />
+		<Footer />
+
 		</>
 	)
 }
