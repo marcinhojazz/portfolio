@@ -1,3 +1,5 @@
+import { UpSite } from "../UpSite"
+
 export const Footer = () => {
   return (
     <footer className="items-center p-4 footer bg-neutral text-neutral-content">
@@ -33,6 +35,8 @@ export const Footer = () => {
         </svg>
         </a>
       </div>
+    <UpSite />
+
     </footer>
   )
 }
