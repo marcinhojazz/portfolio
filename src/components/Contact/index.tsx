@@ -5,7 +5,7 @@ type ContactProps = {
 
 export const Contact = ({}: ContactProps) => {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div id="contato" className="hero min-h-screen bg-base-200">
       <div className="flex-col justify-center hero-content lg:flex-row">
         <div className="text-center lg:text-left">
           <h1 className="mb-5 text-5xl font-bold">
