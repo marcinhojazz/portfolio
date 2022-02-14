@@ -1,7 +1,13 @@
-import { ButtonStyle } from './styles'
+// import { ButtonStyle } from './styles'
 
-export const Button = ({ children }) => {
+type ButtonProps = {
+  children?: any;
+  className?: any;
+  hrref?: string;
+}
+
+export const Button = ({ children }: ButtonProps) => {
   return (
-    <ButtonStyle>{children}</ButtonStyle>
+    <button className="p-2 w-32 btn btn-primary">{children}</button>
   )
 }
