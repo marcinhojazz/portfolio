@@ -13,7 +13,7 @@ export const Hero = ({}: HeroProps) => {
             Márcio Machado Pontes
           </h1> 
           <p className="mb-5">
-          Desenvolvedor front-end, localizada No Rio de Janeiro, Brasil. Em busca da minha primeira oportunidade na area de desenvolvimento web.
+          Desenvolvedor front-end, localizado No Rio de Janeiro, Brasil. Em busca da minha primeira oportunidade na area de desenvolvimento web.
           </p>
           <a target="blank" href="https://api.whatsapp.com/send?phone=5521993233208">
             <Button>
