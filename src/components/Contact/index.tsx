@@ -17,14 +17,14 @@ export const Contact = ({}: ContactProps) => {
         </div> 
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
-            <div>
+            {/* <div>
               <select className="select select-bordered select-primary w-full max-w-xs">
                 <option disabled="disabled" selected="selected">Choose your superpower</option> 
                 <option>telekinesis</option> 
                 <option>time travel</option> 
                 <option>invisibility</option>
               </select>
-            </div>
+            </div> */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
