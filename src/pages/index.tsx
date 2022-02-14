@@ -9,14 +9,14 @@ import { UpSite } from '../components/UpSite'
 
 const Home = () => {
 	return (
-		<>
-		<Nav />
-		<Hero />
-		{/* <About /> */}
-		<Contact />
-		<Footer />
+		<div className='w-full'>
+			<Nav />
+			<Hero />
+			{/* <About /> */}
+			<Contact />
+			<Footer />
+		</div>
 
-		</>
 	)
 }
 
