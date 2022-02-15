@@ -13,7 +13,7 @@ const Home = () => {
 			<Nav />
 			<Hero />
 			{/* <About /> */}
-			<Contact />
+			{/* <Contact /> */}
 			<Footer />
 		</div>
 
