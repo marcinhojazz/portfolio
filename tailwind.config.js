@@ -16,6 +16,7 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
+      'green-on': '#32CD32'
     },
     container: {
       center: true,
@@ -23,6 +24,10 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
+    require('daisyui')
   ],
+
+  daisyui: {
+    themes: ["cupcake", "dark", "cmyk"],
+  },
 }
