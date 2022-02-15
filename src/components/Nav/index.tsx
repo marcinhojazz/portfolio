@@ -1,3 +1,6 @@
+import { Button } from "../Button"
+import { JoinMetaverse } from "../JoinMetaverse"
+
 type NavProps = {}
 
 export const Nav = ({}: NavProps) => {
@@ -9,6 +12,7 @@ export const Nav = ({}: NavProps) => {
         </span>
       </div> 
       <div className="flex-none hidden px-2 mx-2 lg:flex">
+        <JoinMetaverse />
         <div className="flex items-stretch">
           <a className="btn btn-ghost btn-sm rounded-btn">
             Home
