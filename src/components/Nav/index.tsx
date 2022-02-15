@@ -18,12 +18,10 @@ export const Nav = ({}: NavProps) => {
             Home
           </a> 
           <a className="btn btn-ghost btn-sm rounded-btn">
-            
             Sobre
           </a> 
-          <a className="btn btn-ghost btn-sm rounded-btn">
-            
-            Projetos
+          <a className="btn btn-ghost btn-sm rounded-btn" href="/galeria">
+            Galeria
           </a> 
           <a href="#contato" className="btn btn-ghost btn-sm rounded-btn">
             Contato
