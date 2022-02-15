@@ -28,6 +28,6 @@ module.exports = {
   ],
 
   daisyui: {
-    themes: ["cupcake", "dark", "cmyk"],
+  themes: ["cupcake", "dark", "cmyk", "bumblebee", "synthwave"],
   },
 }
