@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="pt">
+      <Html lang="pt" data-theme="dark">
         <Head>
           <meta />
           <link rel="icon" type="image/x-icon" href='https://raw.githubusercontent.com/marcinhojazz/portfolio/main/public/favicon.ico'/>
