@@ -12,8 +12,8 @@ export const Hero = ({}: HeroProps) => {
           <h1 className="mb-5 text-5xl font-bold">
             Márcio Machado Pontes
           </h1> 
-          <p className="mb-5">
-          Desenvolvedor front-end, localizado No Rio de Janeiro, Brasil. Em busca da minha primeira oportunidade na area de desenvolvimento web.
+          <p className="mb-5 leading-relaxed">
+            Desenvolvedor front-end, localizado No Rio de Janeiro, Brasil. Em busca da minha primeira oportunidade na area de desenvolvimento web.
           </p>
           <a target="blank" href="https://api.whatsapp.com/send?phone=5521993233208">
             <Button>
