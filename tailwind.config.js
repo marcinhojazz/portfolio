@@ -16,7 +16,8 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
-      'green-on': '#32CD32'
+      'green-on': '#32CD32',
+      'offline': '#ff0000'
     },
     container: {
       center: true,
