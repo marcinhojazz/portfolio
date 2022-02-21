@@ -34,6 +34,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta />
           <link rel="icon" type="image/x-icon" href='https://raw.githubusercontent.com/marcinhojazz/portfolio/main/public/favicon.ico'/>
+
         </Head>
         <body>
           <Main />
