@@ -15,3 +15,13 @@ export const event = ({ action, category, label, value }) => {
     value: value,
   })
 }
+
+// <!-- Global site tag (gtag.js) - Google Analytics -->
+// <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5B8WR5Y77"></script>
+// <script>
+//   window.dataLayer = window.dataLayer || [];
+//   function gtag(){dataLayer.push(arguments);}
+//   gtag('js', new Date());
+
+//   gtag('config', 'G-T5B8WR5Y77');
+// </script>
