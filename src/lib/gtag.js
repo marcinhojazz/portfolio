@@ -1,8 +1,8 @@
-export const NEXT_PUBLIC_GOOGLE_ANALYTICS = 'G-TSLKZQLQJE'
+export const GA_TRACKING_ID = 'G-T5B8WR5Y77'
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url) => {
-  window.gtag('config', NEXT_PUBLIC_GOOGLE_ANALYTICS, {
+  window.gtag('config', GA_TRACKING_ID, {
     page_path: url,
   })
 }
