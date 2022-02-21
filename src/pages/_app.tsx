@@ -28,7 +28,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />
-        {/* <Analytics /> */}
       </ThemeProvider>
     </>
   )
