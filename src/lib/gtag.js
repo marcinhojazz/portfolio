@@ -1,8 +1,8 @@
-export const GA_TRACKING_ID = 'G-TSLKZQLQJE'
+export const NEXT_PUBLIC_GOOGLE_ANALYTICS = 'G-TSLKZQLQJE'
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url) => {
-  window.gtag('config', GA_TRACKING_ID, {
+  window.gtag('config', NEXT_PUBLIC_GOOGLE_ANALYTICS, {
     page_path: url,
   })
 }
@@ -15,13 +15,3 @@ export const event = ({ action, category, label, value }) => {
     value: value,
   })
 }
-
-// <!-- Global site tag (gtag.js) - Google Analytics -->
-// <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5B8WR5Y77"></script>
-// <script>
-//   window.dataLayer = window.dataLayer || [];
-//   function gtag(){dataLayer.push(arguments);}
-//   gtag('js', new Date());
-
-//   gtag('config', 'G-T5B8WR5Y77');
-// </script>
