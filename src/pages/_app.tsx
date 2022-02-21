@@ -30,18 +30,18 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={theme}>
         <Script 
           strategy='lazyOnload'
-          src={`https://www.googletagmanager.com/gtag/js?id=G-T5B8WR5Y77`}
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
-        <Script 
-          strategy='lazyOnload'
+        
+        <Script strategy='lazyOnload'>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-T5B8WR5Y77');
+            gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
           `}
-        />
+        </Script>
         
         <GlobalStyle />
         <Component {...pageProps} />
