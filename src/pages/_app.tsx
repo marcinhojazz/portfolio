@@ -8,6 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from '../styles/global';
 import '../styles/globals.css';
 import { theme } from '../styles/theme';
+import Script from 'next/script';
 
 
 
@@ -27,9 +28,24 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <ThemeProvider theme={theme}>
+        <Script 
+          strategy='lazyOnload'
+          src={`https://www.googletagmanager.com/gtag/js?id=G-T5B8WR5Y77`}
+        />
+        <Script 
+          strategy='lazyOnload'
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-T5B8WR5Y77');
+          `}
+        />
+        
         <GlobalStyle />
         <Component {...pageProps} />
-        <Analytics />
+        {/* <Analytics /> */}
       </ThemeProvider>
     </>
   )
