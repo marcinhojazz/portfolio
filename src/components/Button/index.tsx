@@ -4,6 +4,7 @@ type ButtonProps = {
   children?: any;
   className?: any;
   hrref?: string;
+  id?: string;
 }
 
 export const Button = ({ children }: ButtonProps) => {

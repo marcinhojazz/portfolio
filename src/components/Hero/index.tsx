@@ -17,7 +17,7 @@ export const Hero = ({}: HeroProps) => {
             Desenvolvedor front-end, localizado No Rio de Janeiro, Brasil. Em busca da minha primeira oportunidade na area de desenvolvimento web.
           </p>
           <a target="blank" href="https://api.whatsapp.com/send?phone=5521993233208">
-            <Button>
+            <Button id="whatsapp">
               Contato
               <svg  className="ml-4 bg-cover" id="whatsapp" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                 <path id="Caminho_1" data-name="Caminho 1" d="M15,30A15,15,0,1,0,0,15,15,15,0,0,0,15,30Z" fill="#25d366"/>
