@@ -1,5 +1,6 @@
 import { Button } from "../Button"
 import { JoinMetaverse } from "../JoinMetaverse"
+import { LinkNav } from "./styles"
 
 type NavProps = {}
 
@@ -13,16 +14,10 @@ export const Nav = ({}: NavProps) => {
       </div> 
       <div className="flex-none hidden px-2 mx-2 lg:flex">
         <JoinMetaverse />
-        <div className="flex items-stretch" >
-          <a className="btn btn-ghost btn-sm rounded-btn" href="/">
+        <div className="flex items-stretch btn-group" >
+          <a className="btn btn-sm rounded-btn" href="/">
             Home
           </a> 
-          {/* <a className="btn btn-ghost btn-sm rounded-btn">
-            Sobre
-          </a>  */}
-          {/* <a className="btn btn-ghost btn-sm rounded-btn" href="/galeria">
-            Galeria
-          </a>  */}
           {/* <a href="#contato" className="btn btn-ghost btn-sm rounded-btn">
             Contato
           </a> */}
