@@ -26,8 +26,8 @@ export const Hero = ({}: HeroProps) => {
               </svg>
             </Button>
           </a>
-          <Socials />
           <Curriculo />
+          <Socials />
         </div>
       </div>
     </div>
