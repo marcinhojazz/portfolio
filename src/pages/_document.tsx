@@ -1,5 +1,6 @@
 import Document, { Html, Head, NextScript, Main } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import { Nav } from '../components/Nav'
 
 import { GA_TRACKING_ID } from '../lib/gtag'
 
@@ -55,6 +56,7 @@ export default class MyDocument extends Document {
           />
         </Head>
         <body>
+			    <Nav />
           <Main />
           <NextScript />
         </body>
