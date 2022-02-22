@@ -1,4 +1,5 @@
 import { Button } from "../Button"
+import { Curriculo } from "../Curriculo";
 import { Socials } from "../Socials";
 
 type HeroProps = {
@@ -26,6 +27,7 @@ export const Hero = ({}: HeroProps) => {
             </Button>
           </a>
           <Socials />
+          <Curriculo />
         </div>
       </div>
     </div>
